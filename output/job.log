@@ -1,0 +1,4 @@
+[06:11:00] JOB STARTED: LOG_ANALYSIS_001
+[06:11:00] Processing data/job_logs.csv
+[06:11:00] Valid: 600 | Rejected: 20 | Duration: 24 ms | Throughput: 24871 rec/s
+[06:11:00] JOB COMPLETED: LOG_ANALYSIS_001
