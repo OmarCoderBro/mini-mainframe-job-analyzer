@@ -1,6 +1,6 @@
 # Mini Mainframe Job Log Processor
 
-Hello everyone, I wanted to understand more about z/OS batch processing on mainframes, so I made a small, backend-focused pipeline inspired by **IBM z/OS batch processing** concepts. I also used IBM Bob to help me build this!
+Hello everyone, I wanted to understand more about z/OS batch processing on mainframes, so I made a small, backend-focused pipeline inspired by **IBM z/OS batch processing** concepts. I also used IBM Bob to help me build this.
 
 ---
 
