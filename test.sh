@@ -32,8 +32,13 @@ assert_eq() {
 # ── Test 1: compile and run happy-path ────────────────────────────────────────
 echo ""
 echo "── Test 1: Happy-path workflow ──"
-./run.sh > /dev/null 2>&1
-assert "run.sh exits 0" "ok"
+if ./run.sh; then
+    assert "run.sh exits 0" "ok"
+else
+    rc=$?
+    assert "run.sh exits 0" "got exit $rc"
+    exit 1
+fi
 
 # ── Test 2: processed.csv was created and has a header ───────────────────────
 echo ""
